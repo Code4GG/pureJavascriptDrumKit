@@ -1,0 +1,29 @@
+body{
+	background-image: url(../images/audience.jpg);
+	background-size: cover;
+}
+.container{
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	margin-top: 250px;
+}
+.key{
+	border: 2px solid black;
+    padding: 20px;
+    font-size: 25px;
+    background: rgba(0,0,0,0.4);
+    height: 50px;
+    width: 50px;
+    color: blue;
+    transition: all 0.07s;
+}
+.sound{
+	font-size: 12px;
+    color: gold;
+}
+.playing{
+	transform:scale(1.1);
+	border-color: #ffc600;
+	box-shadow: 0 0 10px #ffc600;
+}
